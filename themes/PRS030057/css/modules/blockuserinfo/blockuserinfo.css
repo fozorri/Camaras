@@ -1,0 +1,68 @@
+/* block top user information */
+
+#header_right #header_user {
+     float: left;
+    position: absolute;
+    right: 4px;
+    text-align: right;
+    top: 55px;
+	z-index:95;
+}
+#header_user #header_nav {
+}
+
+/* cart */
+#shopping_cart {
+	background: url("https://inova.com.bo/themes/PRS030057/img/cart_icon.gif") no-repeat scroll left center transparent;
+    height: 22px;
+	
+}
+#shopping_cart a{
+	  background: none repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: inline-block;
+    float: left;
+    font-weight: bold;
+    margin-top: 2px;
+    padding-left: 38px;
+    text-decoration: none;
+}
+#shopping_cart a SPAN	{ color:#FFF; font-weight:normal;}
+#shopping_cart a:hover{text-decoration:none;}	
+#shopping_cart a:hover span{text-decoration: none}
+#header_user #shopping_cart .ajax_cart_quantity { font-weight:bold; font-size:12px }
+#header_user #shopping_cart .ajax_cart_total { display:none !important; }
+
+
+/* account */
+#header_user #your_account {display:none;}
+#header_user #your_account a { background-image: url('https://inova.com.bo/themes/PRS030057/css/modules/blockuserinfo/img/icon/my-account.gif') }
+
+/* user infos */ 
+#header_user_info {
+	
+	float:right;
+
+	padding:0;
+	font-size:12px
+}
+#header_user_info a {
+	 background: url("https://inova.com.bo/themes/PRS030057/img/pipe1.gif") no-repeat scroll left center transparent;
+    display: inline-block;
+    margin: 0;
+    padding-left: 8px;
+    padding-right: 2px;
+	
+}
+#header_user_info a.account {
+	border: none;
+	display: inline;
+	margin: 0;
+	padding: 0 2px 0 3px;
+	background:none;
+}
+*:first-child+html #header_user_info a {line-height:14px;}
+#header_user_info a.login {background:none;}
+#header_user_info a.logout {}
+#header_user_info{background:none!important; color:#DB4848; font-weight:bold; font-size:13px;}
+#header_user_info a	{ font-weight:normal;}

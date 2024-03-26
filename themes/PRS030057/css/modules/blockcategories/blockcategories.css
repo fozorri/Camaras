@@ -1,0 +1,49 @@
+#categories_block_left  li {border-bottom:none;border:1px solid #FAFAFA !ie;}
+#categories_block_left  li.last { border:none ; border:1px solid #FAFAFA !ie;}
+#categories_block_left  li a {
+	  background: none repeat scroll 0 0 transparent;
+    color: #555;
+    display: block;
+    padding: 5px 10px;
+	font-weight:normal;
+}
+#categories_block_left  li a.selected		{ color:#000; font-weight:bold;}
+#categories_block_left  li a:hover	{ color:#000; text-decoration:none;} 
+#categories_block_left  li ul {margin-left:20px}
+#categories_block_left  li ul li {border:none; border:1px solid #FAFAFA !ie;}
+#categories_block_left  li ul li a {
+	padding-left:8px;
+	background:url("https://inova.com.bo/themes/PRS030057/img/bull_category.jpg") no-repeat scroll left center transparent;
+	font-weight:normal;
+	color:#555;
+}
+		
+#categories_block_left li .OPEN,
+#categories_block_left li .CLOSE {
+	display:block;
+	float:right;
+	margin:10px 10px 0;
+	height:9px;
+	width:9px;
+	background:url(https://inova.com.bo/themes/PRS030057/css/modules/blockcategories/img/icon/open-close.png) no-repeat 0 -9px;
+	cursor:pointer;
+
+}
+#categories_block_left li .CLOSE { background:url("https://inova.com.bo/themes/PRS030057/img/icon/sort_desc.gif") no-repeat scroll center center transparent;}
+#categories_block_left li .OPEN	{ background:url("https://inova.com.bo/themes/PRS030057/img/icon/sort_asc.gif") no-repeat scroll center center transparent; }
+/* footer */
+.blockcategories_footer {
+	padding:15px 10px;
+}
+.blockcategories_footer ul ul {display:none !important}
+
+#categories_block_left .tree ul {
+    padding: 0;
+}
+#categories_block_left .tree ul {
+    padding: 0;
+}
+#categories_block_left li {
+    border-bottom: medium none;
+	padding:0px;
+}

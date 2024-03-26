@@ -1,0 +1,19 @@
+/* Block manufacturer */
+.blockmanufacturer li {border:none; margin-left:5px;}
+.blockmanufacturer li.last {	border:none; margin-left:5px;}
+.blockmanufacturer li a {
+	background: none repeat scroll 0 0 transparent;
+    color: #5F5F5F;
+    display: block;
+    font-size: 12px;
+    padding: 3px 10px 3px 0;
+	font-weight:normal;
+}
+
+.blockmanufacturer li a:hover	{ color:#000; text-decoration:none;} 
+.blockmanufacturer form {margin-top:5px;}
+.blockmanufacturer p {
+	padding:0;
+	text-align:left;
+	margin-left:5px;
+}

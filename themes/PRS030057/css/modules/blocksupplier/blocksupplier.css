@@ -1,0 +1,19 @@
+/* Block supplier */
+.blocksupplier li {border:none; margin-left:5px;}
+.blocksupplier li.last {	border:none; margin-left:5px;}
+.blocksupplier li a {
+	background: none repeat scroll 0 0 transparent;
+    color: #5F5F5F;
+    display: block;
+    font-size: 12px;
+    padding: 3px 10px 3px 0;
+	font-weight:normal;
+}
+.blocksupplier li a:hover	{ color:#000; text-decoration:none;} 
+.blocksupplier form {margin-top:5px;}
+.blocksupplier p {
+	padding:0;
+	text-align:left;
+	margin-left:5px;
+}
+

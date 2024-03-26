@@ -1,0 +1,135 @@
+/* Special style for block cart*/
+#left_column #cart_block, #right_column #cart_block {
+}
+#header  #cart_block h4 {
+	display: none;
+}
+#header #cart_block {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border:1px solid #EEE;
+    display: none;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    width: 220px;
+    z-index: 9595;
+	padding:0;
+	margin:0;
+	border-radius: 5px 5px 5px 5px;
+}
+#header #cart_block .block_content	{ background-color:#FFFFFF; padding:8px;}
+#cart_block.cart_block_hover {display:block}
+#cart_block h4 span {
+	float: right;
+	padding-left: 10px;
+	text-transform: none;
+	background-position: left top;
+	background-repeat: no-repeat;
+	cursor: pointer
+}
+
+#cart_block #cart_block_summary {display:none}
+#cart_block .quantity-formated {
+	display:inline-block;
+	float:left;
+	min-width:18px;
+}
+#cart_block .cart_block_product_name {font-weight:bold}
+#cart_block .remove_link {
+	 display: inline-block;
+    float: right;
+    height: 12px;
+    margin: 1px 0 0 5px;
+    width: 12px;
+}
+#cart_block .remove_link a {
+	background: url("https://inova.com.bo/themes/PRS030057/img/icon/delete.gif") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 13px;
+    width: 11px;
+}
+#cart_block .price {
+	float:right;
+	font-size:12px;
+	color:#000;
+	margin:0;
+}
+
+#cart_block #cart_block_list dl {
+	padding-bottom:5px;
+	border-bottom:1px solid #eee;
+	float:left;
+	width:100%;
+	margin-bottom:5px;
+}
+#cart_block #cart_block_list dt {  padding: 4px 0; float:left; width:100%;}
+#cart_block #cart_block_list dt a {font-size:12px;font-weight:normal; color:#777; float:left;}
+#cart_block #cart_block_list dt a:hover	{ color:#000; text-decoration:none;}
+#cart_block #cart_block_list dd {
+	margin-left:20px;
+	font-size:11px;
+}
+
+#cart_block #cart-prices {
+	float:left;
+	margin:0;
+	padding-bottom:5px;
+	width:100%;
+	display:none;
+}
+#cart_block #cart_block_shipping_cost,
+#cart_block #cart_block_total {
+	float:right
+}
+#cart_block #cart_block_shipping_cost {font-weight:bold; margin-bottom:0;}
+
+#cart_block #cart-buttons .button_small {}
+#cart_block #cart-buttons  #button_order_cart span {
+	
+}
+#cart_block table#vouchers {
+	clear: both;
+	width:100%
+}
+#cart_block table#vouchers tr td{
+	padding: 2px;
+}
+#cart_block table#vouchers tr td.quantity{
+	margin-right:5px;
+	min-width:18px
+}
+#cart_block table#vouchers tr td.delete{
+	padding-left: 0;
+	padding-right: 0;
+	text-align: right;
+	width: 15px;
+}
+#cart_block_list{}
+.sideboxcart span{float:left;}
+.sideboxcart{float:left;width:100%; margin-bottom:5px;}
+#left_column #cart-buttons{clear:both;margin-bottom:0px;overflow:hidden; padding-bottom:0;}
+#sideboxcartinfo{float:left;}
+
+
+#cart_block p#cart-buttons a {
+	background-position: 0 -26px;
+	float: left;
+	margin: 0 5px 0 0;
+	text-decoration: none;
+	width: 80px;
+}
+#cart_block p#cart-buttons a:hover {
+background-position: 0 -156px;
+}
+
+
+
+#cart-buttons {
+	clear: both;
+	margin-bottom: 0px;
+	overflow: hidden;
+	padding-bottom:5px;
+}
+#cart_block #cart-buttons .button_small { width:60px; background-position:0 0;}
+#cart_block #cart-buttons .button_small:hover	{ background-position:0 -130px;}

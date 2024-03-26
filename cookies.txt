@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+inova.com.bo	TRUE	/	FALSE	1999999999	3f99a2f33f7744ef0eca694ec6b1a644	gzu9VYvntvivyuus6709sejit9ZWk6UMwrQ9ky1mSRruiijRmNAvkzjXFWmtsIBrWsIUh8DiP1MkXnv08oArpWNFQkh9BHLPFU%2F63iMs%2BoBNqQV267xuTLiRSF5yvVIMKQ7dRxlFXNHzaNmq4i68xg%3D%3D000100
+
